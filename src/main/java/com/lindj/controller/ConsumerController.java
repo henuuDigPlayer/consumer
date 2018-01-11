@@ -32,6 +32,6 @@ public class ConsumerController {
 
     @RequestMapping(value = "/get/value")
     public Object getValue(){
-        return this.configParams.getUrl();
+        return this.configParams.getValue();
     }
 }
