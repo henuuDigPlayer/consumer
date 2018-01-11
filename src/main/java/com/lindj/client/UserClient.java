@@ -11,4 +11,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public interface UserClient {
     @RequestMapping(value = "/user/say",method= RequestMethod.GET)
     public String sayHello();
+
+    @RequestMapping(value = "/task/getLength", method = RequestMethod.GET)
+    public Object getLength();
 }

@@ -11,4 +11,9 @@ public class UserClientHystrix implements UserClient {
     public String sayHello() {
         return "require hello world is failed";
     }
+
+    @Override
+    public Object getLength() {
+        return "require value is failed";
+    }
 }
